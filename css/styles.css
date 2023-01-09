@@ -1,0 +1,255 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+h1 {
+	position: absolute;
+	height: 250px;
+	left: 0px;
+	top: 0;
+	line-height: 120%;
+	margin: 0;
+
+	font-family: 'Butcherman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	text-align: center;
+
+
+	background: linear-gradient(0deg, #950101, #950101), linear-gradient(180deg, #FF0000 0%, #490707 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+	mix-blend-mode: normal;
+}
+
+h2 {
+	position: absolute;
+	height: 100px;
+	left: 135px;
+	top: 200px;
+	margin: 0;
+
+  	font-family: 'Jolly Lodger';
+  	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 120px;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+
+	color: #FFFFFF;
+ }
+
+.container {
+	display: flex;
+  	min-height: 90vh;
+  	place-content: center;
+}
+
+.box {
+	position: absolute;
+	height: 515px;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	background-blend-mode: lighten;
+	box-shadow: 0px 4px 100px -1px #001D17;
+}
+
+#box1 {
+	position: absolute;
+	height: 515px;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.22) 0%, #000000 100%);
+	background-blend-mode: lighten;
+	box-shadow: 0px 4px 100px -1px #001D17;
+}
+
+header {
+	position: absolute;
+	height: 70px;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.22) 0%, #000000 100%);
+	background-blend-mode: lighten;
+	backdrop-filter: blur(50px);
+}
+
+#home, #features, #support, #contact, #more {
+	font-family: 'Creepster';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+
+	color: #FF0000;
+}
+
+#home {
+	position: absolute;
+	width: 44px;
+	height: 20px;
+	left: 700px;
+	top: 25px;
+}
+
+#features {
+	position: absolute;
+	width: 44px;
+	height: 20px;
+	left: 790px;
+	top: 25px;
+}
+
+#support {
+	position: absolute;
+	width: 44px;
+	height: 20px;
+	left: 910px;
+	top: 25px;
+}
+
+#contact {
+	position: absolute;
+	width: 44px;
+	height: 20px;
+	left: 1025px;
+	top: 25px;
+}
+
+#more {
+	position: absolute;
+	width: 44px;
+	height: 20px;
+	left: 1140px;
+	top: 25px;
+}
+
+.card {
+	border-radius: 0.7rem;
+  	box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+  	min-width: 25rem;
+  	padding: 10px;
+
+  	position: absolute;
+	height: 390px;
+	left: 5%;
+	right: 56.6%;
+	top: 90px;
+}	
+
+#card2 {
+	position: absolute;
+	height: 390px;
+	left: 56.6%;
+	right: 5%;
+	top: 90px;
+}
+
+#text1, #text2, #text3 {
+	font-family: 'Jolly Lodger';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+
+	color: #FFFFFF;
+	height: 50px;
+}
+
+#text1 {
+	position: absolute;
+	right: 5%;
+	top: 30px;
+}
+
+#text2 {
+	position: absolute;
+	right: 5%;
+	top: 140px;
+}
+
+#text3 {
+	position: absolute;
+	right: 5%;
+	top: 250px;
+}
+
+#box2 {
+	background: rgba(0, 0, 0, 0.2);
+	mix-blend-mode: normal;
+	backdrop-filter: blur(10px);
+
+	position: absolute;
+	height: 400px;
+	left: 0;
+	right: 56.6%;
+	top: 0px;
+}
+
+.button {
+	position: absolute;
+	height: 100px;
+	left: 250px;
+	top: 380px;
+	margin: 0;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 20px;
+	background-blend-mode: lighten;
+	mix-blend-mode: normal;
+
+  	background: #FFFFFF;
+}
+
+#button {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+
+	font-family: 'Creepster';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	mix-blend-mode: hard-light;
+
+  	color: #FF0000;
+}
